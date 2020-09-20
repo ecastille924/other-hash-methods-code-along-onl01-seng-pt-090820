@@ -1,6 +1,5 @@
-require 'pry'
+#require 'pry'
 
-This is the groceries hash we'll be passing in to the get_the_values method
  groceries = {
   dairy: ["milk", "yogurt", "cheese"],
   vegetable: ["carrots", "broccoli", "cucumbers"],
@@ -10,5 +9,4 @@ This is the groceries hash we'll be passing in to the get_the_values method
 
 def get_the_values(groceries)
   goceries.values.flatten
-  binding.pry
 end
